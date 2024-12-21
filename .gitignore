@@ -1,0 +1,11 @@
+.DS_Store
+**/.DS_Store
+
+
+#本地构建缓存
+site/
+
+path/
+
+#vscode
+.history

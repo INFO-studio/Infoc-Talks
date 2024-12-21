@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #0078d7;
+    margin-bottom: 20px;
+}
+
+ul.directory {
+    list-style: none;
+    padding: 0;
+}
+
+ul.directory li {
+    margin: 10px 0;
+}
+
+ul.directory li a {
+    text-decoration: none;
+    color: #0078d7;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+ul.directory li a:hover {
+    color: #0053a4;
+}
+
+ul.directory li a:visited {
+    color: #005b8c;
+}
